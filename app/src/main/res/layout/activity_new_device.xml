@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.iothome.NewDeviceActivity"
+    android:background="@drawable/dark_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deviceNameText"
+            android:hint="Device Name"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:textColorHint="@color/WhiteSmoke"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deviceTypeSpinner"
+            android:textColor="@color/White" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/devicePowerText"
+            android:hint="Power"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:textColorHint="@color/WhiteSmoke"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/macIdText"
+            android:hint="MAC ID"
+            android:textColor="@color/White"
+            android:textColorHint="@color/WhiteSmoke"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ipText"
+            android:hint="IP Addresss"
+            android:textColor="@color/White"
+            android:textColorHint="@color/WhiteSmoke"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/saveButton"
+            android:background="@color/DodgerBlue"
+            android:textColor="@color/White"
+            android:elevation="4dp"/>
+    </LinearLayout>
+</RelativeLayout>

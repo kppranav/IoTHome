@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/sync"
+        android:title="Sync"
+        android:icon="@android:drawable/stat_notify_sync_noanim"
+        android:visible="true"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item android:id="@+id/poweroff"
+        android:title="Power OFF"
+        android:visible="true"
+        android:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/poweron"
+        android:title="Power ON"
+        android:visible="true"
+        android:showAsAction="ifRoom">
+
+    </item>
+
+    <item android:title="Settings"
+        android:id="@+id/settings">
+
+    </item>
+
+</menu>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/uvionics/Apps/IOTHOME/GaugeView/build/intermediates/res/merged/androidTest/debug/drawable/light_alu.png",
+        "source": "/home/uvionics/Apps/IOTHOME/GaugeView/build/intermediates/bundles/debug/res/drawable/light_alu.png"
+    },
+    {
+        "merged": "/home/uvionics/Apps/IOTHOME/GaugeView/build/intermediates/res/merged/androidTest/debug/drawable/brushed_alu.png",
+        "source": "/home/uvionics/Apps/IOTHOME/GaugeView/build/intermediates/bundles/debug/res/drawable/brushed_alu.png"
+    },
+    {
+        "merged": "/home/uvionics/Apps/IOTHOME/GaugeView/build/intermediates/res/merged/androidTest/debug/drawable/brushed_alu2.png",
+        "source": "/home/uvionics/Apps/IOTHOME/GaugeView/build/intermediates/bundles/debug/res/drawable/brushed_alu2.png"
+    },
+    {
+        "merged": "/home/uvionics/Apps/IOTHOME/GaugeView/build/intermediates/res/merged/androidTest/debug/drawable/carbon_fibre.png",
+        "source": "/home/uvionics/Apps/IOTHOME/GaugeView/build/intermediates/bundles/debug/res/drawable/carbon_fibre.png"
+    }
+]

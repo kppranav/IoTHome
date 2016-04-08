@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.iothome.SpeedCntrlActivity"
+    android:background="@drawable/dlg_bg">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/IndianRed"
+        android:src="@drawable/power_icon_md"
+        app:rippleColor="@color/WhiteSmoke"
+        android:id="@+id/fabOn"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab1"
+        android:src="@drawable/ic_action_1"
+        android:layout_above="@+id/fab4"
+        android:layout_alignStart="@+id/fab4"
+        app:rippleColor="@color/WhiteSmoke"/>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab2"
+        android:src="@drawable/ic_action_2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        app:rippleColor="@color/WhiteSmoke"/>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab3"
+        android:src="@drawable/ic_action_3"
+        android:layout_alignTop="@+id/fab4"
+        app:rippleColor="@color/WhiteSmoke"
+         />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:id="@+id/fab4"
+        android:src="@drawable/ic_action_4"
+        android:layout_below="@+id/fab2"
+        android:layout_centerHorizontal="true"
+        app:rippleColor="@color/WhiteSmoke"/>
+
+
+        <com.example.utils.RotaryKnobView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/knob"
+            android:background="@drawable/stator"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.iothome.DeviceListActivity"
+    android:padding="5dp"
+    android:background="@drawable/black_wood">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deviceListView"
+        android:elevation="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/poweron" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/poweron"
+        android:text="POWER ON"
+        android:background="@drawable/power_botton"
+        android:layout_above="@+id/emergencyButton"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/Black"
+        android:visibility="gone"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/space" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/emergencyButton"
+        android:text="@string/emergency"
+        android:textColor="@color/White"
+        android:background="@drawable/emergency_button"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
