@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/uvionics/Apps/IOTHOME/GaugeView/src/main/assets"/></dataSet><dataSet config="debug"><source path="/home/uvionics/Apps/IOTHOME/GaugeView/src/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/uvionics/Apps/IOTHOME/GaugeView/src/main/assets"/><source path="/home/uvionics/Apps/IOTHOME/GaugeView/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/uvionics/Apps/IOTHOME/GaugeView/src/debug/assets"/></dataSet></merger>
